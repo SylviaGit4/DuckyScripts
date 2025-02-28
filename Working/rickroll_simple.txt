@@ -1,0 +1,7 @@
+REM Title: Rickroll
+REM Description: Basically a test to see if I can get this to work.
+
+WINDOWS r
+DELAY 500
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER

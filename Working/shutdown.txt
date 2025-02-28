@@ -1,0 +1,9 @@
+REM Title: Shutdown
+REM Description: Runs the shutdown command. Yeah.
+REM Target: Windows 10/11
+
+WINDOWS r
+DELAY 500
+STRING shutdown
+DELAY 500
+ENTER
