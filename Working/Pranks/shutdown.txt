@@ -8,4 +8,4 @@ STRING shutdown -t 0 -r -f
 DELAY 100
 ENTER
 
-REM Not working. Actively troubleshooting.
+REM This script currently works.

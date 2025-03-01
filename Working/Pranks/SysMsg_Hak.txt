@@ -2,13 +2,13 @@ REM Title: System Message
 REM Description: This will open a Message prompt on the Target.
 REM Target: Windows 10/11
 
-REM =============================================================================
-
-REM some setup for dukie script.
+REM some setup for ducky script.
 DEFAULT_DELAY 100
 
-REM open powershell (remove -W Hidden to show the window)
+REM open powershell 
 GUI r
 DELAY 750
 STRING powershell -W Hidden -Exec Bypass -C "Add-Type -AssemblyName PresentationFramework;[System.Windows.MessageBox]::Show('uor compoter is hak. sori :c')"
 ENTER
+
+REM This script currently works.
