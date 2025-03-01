@@ -1,0 +1,11 @@
+REM Title: Shutdown
+REM Description: Runs the shutdown command. Modified to have a delay of 100 seconds before shutdown to allow time to ESCAPE.
+REM Target: Windows 10/11
+
+WINDOWS r
+DELAY 500
+STRING shutdown -t 100 -s -f
+DELAY 100
+ENTER
+
+REM This script currently works.
